@@ -6,4 +6,4 @@ images:
 #substitutions:
   #- _TAG: "test"
 tags:
-  - ${build.status}
+  - ${Build.Status.PENDING}
