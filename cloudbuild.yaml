@@ -3,7 +3,7 @@ steps:
   args: [ 'build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/quickstart-docker-repo/quickstart-image:tag1', '.' ]
 images:
 - 'us-central1-docker.pkg.dev/$PROJECT_ID/quickstart-docker-repo/quickstart-image:tag1'
-#substitutions:
-  #- _TAG: "test"
+substitutions:
+  - _TAG: "test"
 tags:
-  - ${Build.Status.PENDING}
+  - ${_TAG}
