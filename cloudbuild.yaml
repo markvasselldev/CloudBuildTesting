@@ -6,4 +6,4 @@ images:
 #substitutions:
   #- _TAG: "test"
 tags:
-  - 'testing'
+  - $build.status
