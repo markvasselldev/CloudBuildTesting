@@ -4,6 +4,6 @@ steps:
 images:
 - 'us-central1-docker.pkg.dev/$PROJECT_ID/quickstart-docker-repo/quickstart-image:tag1'
 substitutions:
-  - _TAG: 'test'
+  - _TAG: testing
 tags:
   - ${_TAG}
